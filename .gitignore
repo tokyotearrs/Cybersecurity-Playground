@@ -1,0 +1,13 @@
+# Hidden files/folders (dotfiles)
+.*
+**/.*
+
+# Allowlist for useful dotfiles
+!.gitignore
+!.dockerignore
+!.env.example
+
+# macOS junk files
+.DS_Store
+**/.DS_Store
+._*
